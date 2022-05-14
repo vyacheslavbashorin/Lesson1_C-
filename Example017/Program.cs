@@ -1,11 +1,11 @@
-﻿int A = -8;
-int B = 0;
-int C = 16;
+﻿int A = 240;
+int B = 707;
+int C = 1110;
 int max = A;
 
-if (A < B) max = B;
+if (max < B) max = B;
 
-if (B < C) max = C;
+if (max < C) max = C;
 {
     Console.WriteLine (max);
 }
